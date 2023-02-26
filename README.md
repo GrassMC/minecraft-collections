@@ -4,8 +4,13 @@
 
 ## Contents
 
-* [Loaders](#loaders)
-    * [Mods](#mods)
+* [Platforms](#platforms)
+    * [Mod Loaders](#mod-loaders)
+    * [Servers](#servers)
+        * [Wrappers](#wrappers)
+        * [Third-party](#third-party)
+        * [Hybrid](#hybrid)
+        * [Minecraft: Bedrock Edition](#minecraft--bedrock-edition)
 
 ## Platforms
 
