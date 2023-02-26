@@ -79,6 +79,21 @@ _Server software for [Minecraft: Bedrock Edition][mcbe]._
 - [Dragonfly](https://github.com/df-mc/dragonfly) – The heavily asynchronous server software for Minecraft Bedrock
   Edition written in Go.
 
+### Proxies
+
+_Proxies allow linking together multiple [Minecraft servers](#servers), so they may appear as one._
+
+- [Velocity](https://velocitypowered.com/) – The modern, next-generation Minecraft server proxy.
+- [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) – Efficiently proxies and maintains connections and transport
+  between multiple Minecraft servers.
+- [Waterfall](https://github.com/PaperMC/Waterfall) – BungeeCord fork that aims to improve performance and stability.
+- [Gate](https://gate.minekube.com/) – An extensible lightweight high-performance Minecraft reverse proxy with
+  flexibility & excellent server version support – ready for the cloud!
+- [Infrared](https://github.com/haveachin/infrared) – An ultra lightweight minecraft reverse proxy and idle placeholder.
+- [VIAaaS](https://github.com/ViaVersion/VIAaaS) – ViaVersion as a Service - standalone ViaVersion proxy.
+- [Geyser](https://geysermc.org/)[^3] – A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with
+  Minecraft: Bedrock Edition.
+
 ## License
 
 [![Creative Commons Zero v1.0 Universal][cc-zero-badge]][repo-license]
@@ -88,6 +103,8 @@ _Server software for [Minecraft: Bedrock Edition][mcbe]._
 [^wip]: Project is currently in development.
 
 [^2]: As Minestom is a Java library, it must be loaded the same way any other Java library may be loaded.
+
+[^3]: Hybrid proxy that enables clients from Minecraft Bedrock Edition to join your Minecraft Java server.
 
 <!-- SECTION: DECLARATIONS -->
 
