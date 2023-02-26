@@ -57,7 +57,7 @@ _Servers that have written from scratch._
 - [feather](https://github.com/feather-rs/feather)[^wip] — A Minecraft server implementation in Rust.
 - [MCHPRS](https://github.com/MCHPR/MCHPRS)[^wip] – A multithreaded Minecraft server built for redstone.
 
-#### Hybrid
+#### Hybrids
 
 _Hybrid servers allow loads both mods and plugins in the same server._
 
