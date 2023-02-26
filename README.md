@@ -13,7 +13,7 @@ _Loaders that load Minecraft modding platform._
 
 ### Mods
 
-_Mod loader allows you to load mods that can change [Minecraft][minecraft]'s game content in some way, such as to make
+_Mod loaders allow you to load mods that can change [Minecraft][minecraft]'s game content in some way, such as to make
 minor adjustments to the game's mechanics or implement entirely new features._
 
 - [Minecraft Forge](https://github.com/MinecraftForge/MinecraftForge) – Modifications to the Minecraft base files to
