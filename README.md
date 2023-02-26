@@ -9,8 +9,9 @@
     * [Servers](#servers)
         * [Wrappers](#wrappers)
         * [Third-party](#third-party)
-        * [Hybrid](#hybrid)
+        * [Hybrids](#hybrids)
         * [Minecraft: Bedrock Edition](#minecraft--bedrock-edition)
+    * [Proxies](#proxies)
 
 ## Platforms
 
