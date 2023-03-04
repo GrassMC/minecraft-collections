@@ -95,6 +95,47 @@ _Proxies allow linking together multiple [Minecraft servers](#servers), so they 
 - [Geyser](https://geysermc.org/)[^3] – A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with
   Minecraft: Bedrock Edition.
 
+## Mods
+
+### Optimization
+
+- [Sodium (Fabric)](https://modrinth.com/mod/sodium) – Modern rendering engine and client-side optimization mod for
+  Minecraft.
+- [Lithium (Fabric)](https://modrinth.com/mod/lithium) – No-compromises game logic/server optimization mod.
+- [Phosphor (Fabric)](https://modrinth.com/mod/phosphor) – No-compromises lighting engine optimization mod.
+- [Iris Shaders (Fabric)](https://modrinth.com/mod/iris) – A modern shaders mod for Minecraft intended to be compatible
+  with
+- [FerriteCore](https://modrinth.com/mod/ferrite-core) – Memory usage optimizations.
+  existing OptiFine shader packs.
+- [OptiFine](https://www.optifine.net/home) – A Minecraft optimization mod.
+- [OptiFabric](https://beta.curseforge.com/minecraft/mc-mods/optifabric) – A mod that can be used to run OptiFine on the
+  Fabric Mod Loader.
+
+### Maps
+
+- [JourneyMap](https://modrinth.com/mod/journeymap) – Real-time mapping in game or in a web browser as you explore.
+- [Xaero's Minimap](https://beta.curseforge.com/minecraft/mc-mods/xaeros-minimap) – Displays the nearby world terrain,
+  players, mobs, entities in the corner of your screen.
+
+### Storages
+
+- [Storage Drawers (Forge)](https://beta.curseforge.com/minecraft/mc-mods/storage-drawers) – Interactive compartment
+  storage for your workshops.
+- [Refined Storage (Forge)](https://beta.curseforge.com/minecraft/mc-mods/refined-storage) – An elegant solution to your
+  hoarding problem.
+- [Applied Energistics 2](https://modrinth.com/mod/ae2) – AE2: A popular automation and storage mod.
+
+### Utilities
+
+- [Just Enough Items](https://modrinth.com/mod/jei) – JEI - View Items and Recipes.
+- [Mouse Tweaks](https://modrinth.com/mod/mouse-tweaks) – Enhances inventory management by adding various functions to
+  the mouse buttons.
+- [AppleSkin](https://modrinth.com/mod/appleskin) – Food/hunger-related HUD improvements.
+- [Carry On](https://modrinth.com/mod/carry-on) – Allows you to pick up Tile Entities and Mobs and carry them around.
+- [Controlling](https://beta.curseforge.com/minecraft/mc-mods/controlling) – Adds a search bar to the Key-Bindings menu.
+- [CraftTweaker](https://beta.curseforge.com/minecraft/mc-mods/crafttweaker) - Allows modpacks and servers to customize
+  the game.
+
 ## License
 
 [![Creative Commons Zero v1.0 Universal][cc-zero-badge]][repo-license]
