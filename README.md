@@ -133,8 +133,20 @@ _Proxies allow linking together multiple [Minecraft servers](#servers), so they 
 - [AppleSkin](https://modrinth.com/mod/appleskin) – Food/hunger-related HUD improvements.
 - [Carry On](https://modrinth.com/mod/carry-on) – Allows you to pick up Tile Entities and Mobs and carry them around.
 - [Controlling](https://beta.curseforge.com/minecraft/mc-mods/controlling) – Adds a search bar to the Key-Bindings menu.
-- [CraftTweaker](https://beta.curseforge.com/minecraft/mc-mods/crafttweaker) - Allows modpacks and servers to customize
+- [CraftTweaker](https://beta.curseforge.com/minecraft/mc-mods/crafttweaker) – Allows modpacks and servers to customize
   the game.
+
+## Websites
+
+### Wikis
+
+- [Minecraft Wiki](https://minecraft.fandom.com/wiki/Minecraft_Wiki) – Unofficial Minecraft Wiki maintained by
+  community.
+- [Feed The Beast Wiki](https://ftb.fandom.com/wiki/FTB_Wiki) – Official wiki for mods, modpacks, and maps related to
+  FTB related to FTB.
+- [Spigot Wiki](https://www.spigotmc.org/wiki/index/) – The SpigotMC community wiki.
+- [wiki.vg](https://wiki.vg/Main_Page) – A wiki which stored technical documentation on reverse engineering efforts for
+  the popular Minecraft game.
 
 ## License
 
