@@ -165,6 +165,7 @@ _Proxies allow linking together multiple [Minecraft servers](#servers), so they 
 [^2]: As Minestom is a Java library, it must be loaded the same way any other Java library may be loaded.
 [^3]: Hybrid proxy that enables clients from Minecraft Bedrock Edition to join your Minecraft Java server.
 
+<!-- @formatter:off -->
 <!-- SECTION: DECLARATIONS -->
 
 <!-- Media sources -->
