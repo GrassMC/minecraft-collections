@@ -19,6 +19,7 @@
   - [Utilities](#utilities)
 - [Websites](#websites)
   - [Wikis](#wikis)
+  - [Content Distribution Platforms](#content-distribution-platforms)
 
 ## Platforms
 
@@ -145,6 +146,8 @@ _Proxies allow linking together multiple [Minecraft servers](#servers), so they 
 
 ## Websites
 
+**Note**: This section may have BREAKING CHANGES in the near future.
+
 ### Wikis
 
 - [Minecraft Wiki](https://minecraft.fandom.com/wiki/Minecraft_Wiki) — Unofficial Minecraft Wiki maintained by
@@ -154,6 +157,14 @@ _Proxies allow linking together multiple [Minecraft servers](#servers), so they 
 - [Spigot Wiki](https://www.spigotmc.org/wiki/index/) — The SpigotMC community wiki.
 - [wiki.vg](https://wiki.vg/Main_Page) — A wiki which stored technical documentation on reverse engineering efforts for
   the popular Minecraft game.
+
+### Content Distribution Platforms
+
+- [CurseForge Minecraft](https://beta.curseforge.com/minecraft) - The Home for the Best Minecraft Mods, also for
+  other content in Minecraft.
+- [Modrinth](https://modrinth.com/) - The place for Minecraft mods, plugin, data packs, shaders, resource packs,
+  modpacks.
+- [SpigotMC Resources](https://www.spigotmc.org/resources/) - The Spigot plugin distribution platform.
 
 ## License
 
