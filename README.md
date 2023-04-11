@@ -19,7 +19,6 @@
   - [Utilities](#utilities)
 - [Websites](#websites)
   - [Wikis](#wikis)
-- [License](#license)
 
 ## Platforms
 
