@@ -1,54 +1,89 @@
 # Minecraft Collections
 
-> 📝 A curated list of awesome Minecraft-related things
+> 📝 The curated collections of awesome Minecraft-related things
 
 ## Contents
 
-- [Platforms](#platforms)
-  - [Mod Loaders](#mod-loaders)
-  - [Servers](#servers)
-    - [Wrappers](#wrappers)
-    - [Third-party](#third-party)
-    - [Hybrids](#hybrids)
-    - [Minecraft: Bedrock Edition](#minecraft-bedrock-edition)
-  - [Proxies](#proxies)
-- [Mods](#mods)
-  - [Optimization](#optimization)
-  - [Maps](#maps)
-  - [Storages](#storages)
-  - [Utilities](#utilities)
-- [Websites](#websites)
-  - [Wikis](#wikis)
-  - [Content Distribution Platforms](#content-distribution-platforms)
+- [Mod Loaders](#mod-loaders)
+- [Plugin Loaders](#plugin-loaders)
+
+## Mod Loaders
+
+_Mod Loaders allow you to load mods that can change [Minecraft][minecraft]'s game content in some way, such as to make
+minor adjustments to the game's mechanics or implement entirely new features._
+
+| Name                     | Author(s)                          | License                  | Links                                           |
+|--------------------------|------------------------------------|--------------------------|-------------------------------------------------|
+| [Minecraft Forge][forge] | [Minecraft Forge][minecraft-forge] | [LGPL-2.1][lgpl-2.1]     | [download][forge-download] [docs][forge-docs]   |
+| [Fabric][fabric]         | [FabricMC][fabricmc]               | [Apache-2.0][apache-2.0] | [download][fabric-download] [wiki][fabric-wiki] |
+| [Quilt][quilt][^wip]     | [QuiltMC][quiltmc]                 | [Apache-2.0][apache-2.0] | [download][quilt-download] [usage][quilt-usage] |
+
+<!-- @formatter:off -->
+
+[forge]: https://minecraftforge.net/
+[minecraft-forge]: https://twitter.com/forgedevteam
+[forge-download]: https://files.minecraftforge.net/
+[forge-docs]: https://docs.minecraftforge.net/
+
+[fabric]: https://fabricmc.net/
+[fabricmc]: https://github.com/FabricMC
+[fabric-download]: https://fabricmc.net/use/installer/
+[fabric-wiki]: https://fabricmc.net/wiki/
+
+[quilt]: https://quiltmc.org/
+[quiltmc]: https://quiltmc.org/en/about/
+[quilt-download]: https://quiltmc.org/en/install/
+[quilt-usage]: https://quiltmc.org/en/usage/
+
+<!-- @formatter:on -->
+
+## Plugin Loaders
+
+_Servers that implement (based on) vanilla [Minecraft][minecraft] server._
+
+| Name                             | Authors                        | License              | Links                                                   |
+|----------------------------------|--------------------------------|----------------------|---------------------------------------------------------| 
+| [Spigot][spigot]                 | [SpigotMC][spigotmc]           | [LGPL-3.0][lgpl-3.0] | [download][spigot-download] [wiki][spigot-wiki]         | 
+| [Paper][paper]                   | [PaperMC][papermc]             | [LGPL-3.0][lgpl-3.0] | [download][paper-download] [docs][paper-docs]           | 
+| [Purpur][purpur]                 | [PurpurMC][purpurmc]           | [MIT][mit]           | [download][purpur-download] [docs][purpur-docs]         |
+| [Sponge Vanilla][sponge-vanilla] | [SpongePowered][spongepowered] | [MIT][mit]           | [download][sponge-vanilla-download] [docs][sponge-docs] |
+| [Folio][folia][^wip]             | [PaperMC][papermc]             | [GPL-3.0][gpl-3.0]   | [github][folia-github] [docs][folia-docs]               |
+
+<!-- @formatter:off -->
+
+[spigot]: https://www.spigotmc.org/
+[spigotmc]: https://www.spigotmc.org/XenStaff/
+[spigot-download]: https://www.spigotmc.org/link-forums/31/
+[spigot-wiki]: https://www.spigotmc.org/wiki/
+
+[paper]: https://papermc.io/software/paper
+[papermc]: https://papermc.io/team
+[paper-download]: https://papermc.io/downloads/paper
+[paper-docs]: https://docs.papermc.io/paper
+
+[purpur]: https://purpurmc.org/
+[purpurmc]: https://github.com/PurpurMC
+[purpur-download]: https://purpurmc.org/downloads
+[purpur-docs]: https://purpurmc.org/docs/
+
+[sponge-vanilla]: https://www.spongepowered.org/
+[spongepowered]: https://docs.spongepowered.org/stable/en/about/staff.html
+[sponge-vanilla-download]: https://www.spongepowered.org/downloads/spongevanilla
+[sponge-docs]: https://docs.spongepowered.org
+
+[folia]: https://papermc.io/software/folia
+[folia-github]: https://github.com/PaperMC/Folia
+[folia-docs]: https://docs.papermc.io/folia
+
+<!-- @formatter:on -->
 
 ## Platforms
 
 _There are Minecraft modding platforms._
 
-### Mod Loaders
-
-_Mod Loaders allow you to load mods that can change [Minecraft][minecraft]'s game content in some way, such as to make
-minor adjustments to the game's mechanics or implement entirely new features._
-
-- [Minecraft Forge](https://github.com/MinecraftForge/MinecraftForge) — Modifications to the Minecraft base files to
-  assist in compatibility between mods.
-- [Fabric](https://fabricmc.net/) — A lightweight, experimental modding toolchain for Minecraft.
-- [Quilt](https://quiltmc.org/)[^wip] — A modding toolchain developed primarily for Minecraft that has been forked from
-  The Fabric Project.
-
 ### Servers
 
 _[Minecraft][minecraft]'s servers allow players to play online or via a local area network with other people._
-
-#### Wrappers
-
-_Servers that implement (based on) vanilla [Minecraft][minecraft] server._
-
-- [Spigot](https://www.spigotmc.org/) — High performance Minecraft server implementation.
-- [Paper](https://papermc.io/) — High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies.
-- [Purpur](https://purpurmc.org/) — A drop-in replacement for Paper servers designed for configurability and new, fun,
-  exciting gameplay features.
-- [Sponge Vanilla](https://spongepowered.org/) — The implementation of the Sponge API on top of Vanilla Minecraft.
 
 #### Third-party
 
@@ -165,6 +200,16 @@ _Proxies allow linking together multiple [Minecraft servers](#servers), so they 
 - [Modrinth](https://modrinth.com/) - The place for Minecraft mods, plugin, data packs, shaders, resource packs,
   modpacks.
 - [SpigotMC Resources](https://www.spigotmc.org/resources/) - The Spigot plugin distribution platform.
+
+<!-- @formatter:off -->
+
+[mit]: https://spdx.org/licenses/MIT.html
+[apache-2.0]: https://www.apache.org/licenses/LICENSE-2.0.html
+[lgpl-2.1]: https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+[lgpl-3.0]: https://www.gnu.org/licenses/lgpl-3.0.html
+[gpl-3.0]: https://www.gnu.org/licenses/gpl-3.0.html
+
+<!-- @formatter:on -->
 
 ## License
 
