@@ -4,6 +4,7 @@
 
 ## Contents
 
+- [Wikis & Docs](#wikis--docs)
 - [Mod Loaders](#mod-loaders)
 
 ## Wikis & Docs
