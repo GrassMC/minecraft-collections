@@ -4,36 +4,34 @@
 
 ## Contents
 
-- [Platforms](#platforms)
-  - [Mod Loaders](#mod-loaders)
-  - [Servers](#servers)
-    - [Wrappers](#wrappers)
-    - [Third-party](#third-party)
-    - [Hybrids](#hybrids)
-    - [Minecraft: Bedrock Edition](#minecraft-bedrock-edition)
-  - [Proxies](#proxies)
-- [Mods](#mods)
-  - [Optimization](#optimization)
-  - [Maps](#maps)
-  - [Storages](#storages)
-  - [Utilities](#utilities)
-- [Websites](#websites)
-  - [Wikis](#wikis)
+- [Mod Loaders](#mod-loaders)
+
+## Mod Loaders
+
+| Name                     | Description                                                                                         | Status | Links                                           |
+|--------------------------|-----------------------------------------------------------------------------------------------------|--------|-------------------------------------------------|
+| [Minecraft Forge][forge] | Modifications to the Minecraft base files to assist in compatibility between mods.                  | ✅      | [download][forge-download] [docs][forge-docs]   |
+| [Fabric][fabric]         | A lightweight, experimental modding toolchain for Minecraft.                                        | ✅      | [download][fabric-download] [wiki][fabric-wiki] |
+| [Quilt][quilt]           | A modding toolchain developed primarily for Minecraft that has been forked from The Fabric Project. | 🚧     | [install][quilt-install]                        |
+
+<!-- @formatter:off -->
+
+[forge]: https://github.com/MinecraftForge
+[forge-download]: https://files.minecraftforge.net/
+[forge-docs]: https://docs.minecraftforge.net/en/latest/
+
+[fabric]: https://fabricmc.net/
+[fabric-download]: https://fabricmc.net/use/
+[fabric-wiki]: https://fabricmc.net/wiki/
+
+[quilt]: https://quiltmc.org/
+[quilt-install]: https://quiltmc.org/install/
+
+<!-- @formatter:on -->
 
 ## Platforms
 
 _There are Minecraft modding platforms._
-
-### Mod Loaders
-
-_Mod Loaders allow you to load mods that can change [Minecraft][minecraft]'s game content in some way, such as to make
-minor adjustments to the game's mechanics or implement entirely new features._
-
-- [Minecraft Forge](https://github.com/MinecraftForge/MinecraftForge) — Modifications to the Minecraft base files to
-  assist in compatibility between mods.
-- [Fabric](https://fabricmc.net/) — A lightweight, experimental modding toolchain for Minecraft.
-- [Quilt](https://quiltmc.org/)[^wip] — A modding toolchain developed primarily for Minecraft that has been forked from
-  The Fabric Project.
 
 ### Servers
 
