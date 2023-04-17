@@ -8,6 +8,9 @@
 
 ## Mod Loaders
 
+_Mod Loaders allow you to load mods that can change [Minecraft][minecraft]'s game content in some way, such as to make
+minor adjustments to the game's mechanics or implement entirely new features._
+
 | Name                     | Description                                                                                         | Status | Links                                           |
 |--------------------------|-----------------------------------------------------------------------------------------------------|--------|-------------------------------------------------|
 | [Minecraft Forge][forge] | Modifications to the Minecraft base files to assist in compatibility between mods.                  | ✅      | [download][forge-download] [docs][forge-docs]   |
