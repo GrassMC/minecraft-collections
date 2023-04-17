@@ -16,7 +16,7 @@
 | [wiki.vg](https://wiki.vg/)                                                                              | A wiki which stored technical documentation on reverse engineering efforts for the popular Minecraft game.                                                      |
 | [Minecraft: Bedrock Edition Creator Documentation](https://learn.microsoft.com/en-us/minecraft/creator/) | Learn how to mod Minecraft with Add-Ons. Create skins, design unique experiences, discover the latest features, and develop your skills as a Minecraft creator. |
 | [bedrock.dev](https://bedrock.dev/)                                                                      | A technical Minecraft: Bedrock Edition documentation.                                                                                                           |
-| [Bedrock Wiki](https://wiki.bedrock.dev/)                                                                | a knowledge-sharing website for Technical Bedrock, containing documentation, tutorials, and general how-to information.                                         |
+| [Bedrock Wiki](https://wiki.bedrock.dev/)                                                                | A knowledge-sharing website for Technical Bedrock, containing documentation, tutorials, and general how-to information.                                         |
 | [Minecraft CreepyPasta Wiki](https://minecraftcreepypasta.fandom.com/wiki/Minecraft_Creepypasta_Wiki)    | A wiki for Minecraft Creepypastas.                                                                                                                              |
 
 ## Mod Loaders
