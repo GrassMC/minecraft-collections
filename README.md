@@ -87,16 +87,16 @@ _Servers that implement (based on) vanilla [Minecraft][minecraft] server._
 
 _[Minecraft][minecraft]'s servers that have written from scratch._
 
-| Name                   | Description                                                                         | Languages/Scripts | Status | Links                                                   |
-|------------------------|-------------------------------------------------------------------------------------|-------------------|--------|---------------------------------------------------------|
-| [Glowstone][glowstone] | A fast, customizable and compatible open source server for Minecraft: Java Edition. | Java              | ✅      | [download][glowstone-download] [docs][glowstone-docs]   |
-| [Cuberite][cuberite]   | A lightweight, fast and extensible game server for Minecraft.                       | C++               | ✅      | [download][cuberite-download] [manual][cuberite-manual] |
-| [Limbo][limbo]         | Standalone Limbo Minecraft Server                                                   | Java              | ✅      | [download][limbo-download]                              |
-| [NanoLimbo][nanolimbo] | The lightweight, high performance Minecraft limbo server                            | Java              | ✅      | [download][nanolimbo-download]                          |
-| [Krypton][krypton]     | A fast, lightweight Minecraft server written in Kotlin.                             | Kotlin            | 🚧     | [download][krypton-download] [wiki][krypton-wiki]       |
-| [MCHPRS][mchprs]       | A multithreaded Minecraft server built for redstone.                                | Rust              | 🚧     | [usage][mchprs-usage]                                   |
-| [Obsidian][obsidian]   | A C# implementation of the Minecraft server protocol.                               | C#                | 🚧     | [usage][obsidian-usage]                                 |
-| [feather][feather]     | A Minecraft server implementation in Rust                                           | Rust              | 🚧     | [download][feather-download]                            |
+| Name                   | Description                                                                         | Languages | Status | Links                                                   |
+|------------------------|-------------------------------------------------------------------------------------|-----------|--------|---------------------------------------------------------|
+| [Glowstone][glowstone] | A fast, customizable and compatible open source server for Minecraft: Java Edition. | Java      | ✅      | [download][glowstone-download] [docs][glowstone-docs]   |
+| [Cuberite][cuberite]   | A lightweight, fast and extensible game server for Minecraft.                       | C++       | ✅      | [download][cuberite-download] [manual][cuberite-manual] |
+| [Limbo][limbo]         | Standalone Limbo Minecraft Server                                                   | Java      | ✅      | [download][limbo-download]                              |
+| [NanoLimbo][nanolimbo] | The lightweight, high performance Minecraft limbo server                            | Java      | ✅      | [download][nanolimbo-download]                          |
+| [Krypton][krypton]     | A fast, lightweight Minecraft server written in Kotlin.                             | Kotlin    | 🚧     | [download][krypton-download] [wiki][krypton-wiki]       |
+| [MCHPRS][mchprs]       | A multithreaded Minecraft server built for redstone.                                | Rust      | 🚧     | [usage][mchprs-usage]                                   |
+| [Obsidian][obsidian]   | A C# implementation of the Minecraft server protocol.                               | C#        | 🚧     | [usage][obsidian-usage]                                 |
+| [feather][feather]     | A Minecraft server implementation in Rust.                                          | Rust      | 🚧     | [download][feather-download]                            |
 
 <!-- @formatter:off -->
 
@@ -145,6 +145,7 @@ _Hybrid servers allow loads both mods and plugins in the same server._
 - [CatServer](https://catmc.org/) — A high-performance Bukkit and Forge hybrid minecraft server.
 - [Arclight](https://github.com/IzzelAliz/Arclight) — A Bukkit(1.16/1.18/1.19) server implementation on Forge using
   Mixin.
+- https://magmafoundation.org/
 
 #### Minecraft: Bedrock Edition
 
