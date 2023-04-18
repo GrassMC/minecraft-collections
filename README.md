@@ -7,6 +7,7 @@
 - [Wikis & Docs](#wikis--docs)
 - [Mod Loaders](#mod-loaders)
 - [Server Wrappers](#server-wrappers)
+- [Third-party Servers](#third-party-servers)
 
 ## Wikis & Docs
 
@@ -77,29 +78,57 @@ _Servers that implement (based on) vanilla [Minecraft][minecraft] server._
 
 <!-- @formatter:on -->
 
+## Third-party Servers
+
+_[Minecraft][minecraft]'s servers that have written from scratch._
+
+| Name                   | Description                                                                         | Languages/Scripts | Status | Links                                                   |
+|------------------------|-------------------------------------------------------------------------------------|-------------------|--------|---------------------------------------------------------|
+| [Glowstone][glowstone] | A fast, customizable and compatible open source server for Minecraft: Java Edition. | Java              | ✅      | [download][glowstone-download] [docs][glowstone-docs]   |
+| [Cuberite][cuberite]   | A lightweight, fast and extensible game server for Minecraft.                       | C++               | ✅      | [download][cuberite-download] [manual][cuberite-manual] |
+| [Limbo][limbo]         | Standalone Limbo Minecraft Server                                                   | Java              | ✅      | [download][limbo-download]                              |
+| [NanoLimbo][nanolimbo] | The lightweight, high performance Minecraft limbo server                            | Java              | ✅      | [download][nanolimbo-download]                          |
+| [Krypton][krypton]     | A fast, lightweight Minecraft server written in Kotlin.                             | Kotlin            | 🚧     | [download][krypton-download] [wiki][krypton-wiki]       |
+| [MCHPRS][mchprs]       | A multithreaded Minecraft server built for redstone.                                | Rust              | 🚧     | [usage][mchprs-usage]                                   |
+| [Obsidian][obsidian]   | A C# implementation of the Minecraft server protocol.                               | C#                | 🚧     | [usage][obsidian-usage]                                 |
+| [feather][feather]     | A Minecraft server implementation in Rust                                           | Rust              | 🚧     | [download][feather-download]                            |
+
+<!-- @formatter:off -->
+
+[glowstone]: https://glowstone.net/
+[glowstone-download]: https://glowstone.net/#downloads
+[glowstone-docs]: https://docs.glowstone.net/en/latest/index.html
+
+[cuberite]: https://cuberite.org/
+[cuberite-download]: https://cuberite.org/download-links/
+[cuberite-manual]: https://book.cuberite.org/
+
+[limbo]: https://github.com/LOOHP/Limbo
+[limbo-download]: https://ci.loohpjames.com/job/Limbo/
+
+[nanolimbo]: https://github.com/Nan1t/NanoLimbo
+[nanolimbo-download]: https://github.com/Nan1t/NanoLimbo/releases
+
+[krypton]: https://kryptonmc.org/
+[krypton-download]: https://api.kryptonmc.org/downloads/v1/krypton/latest/download
+[krypton-wiki]: https://wiki.kryptonmc.org/api/
+
+[mchprs]: https://github.com/MCHPR/MCHPRS
+[mchprs-usage]: https://github.com/MCHPR/MCHPRS#building
+
+[obsidian]: https://github.com/ObsidianMC/Obsidian
+[obsidian-usage]: https://github.com/ObsidianMC/Obsidian#-development-builds 
+
+[feather]: https://github.com/feather-rs/feather
+[feather-download]: https://github.com/feather-rs/feather/releases
+
+<!-- @formatter:on -->
+
 ## Platforms
 
 _There are Minecraft modding platforms._
 
 ### Servers
-
-_[Minecraft][minecraft]'s servers allow players to play online or via a local area network with other people._
-
-#### Third-party
-
-_Servers that have written from scratch._
-
-- [Glowstone](https://glowstone.net/) — A fast, customizable and compatible open source server for Minecraft: Java
-  Edition.
-- [Cuberite](https://cuberite.org/) — A lightweight, fast and extensible game server for Minecraft.
-- [flying-squid](https://flying-squid.prismarine.js.org/) - Create Minecraft servers with a powerful, stable, and
-  high-level JavaScript API.
-- [Minestom](https://minestom.net/)[^2] — A Minecraft server implementation, open-source and without any code from
-  Mojang.
-- [Krypton](https://kryptonmc.org/)[^wip] — A fast, lightweight Minecraft server written in Kotlin.
-- [Valence](https://github.com/valence-rs/valence)[^wip] — A Rust framework for building Minecraft servers.
-- [feather](https://github.com/feather-rs/feather)[^wip] — A Minecraft server implementation in Rust.
-- [MCHPRS](https://github.com/MCHPR/MCHPRS)[^wip] — A multithreaded Minecraft server built for redstone.
 
 #### Hybrids
 
