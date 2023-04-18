@@ -9,6 +9,7 @@
 - [Server Wrappers](#server-wrappers)
 - [Third-party Servers](#third-party-servers)
 - [Hybrid Servers](#hybrid-servers)
+- [Bedrock Servers](#bedrock-servers)
 
 ## Wikis & Docs
 
@@ -166,22 +167,45 @@ _Hybrid servers allow loading both mods and plugins in the same server._
 
 <!-- @formatter:on -->
 
+## Bedrock Servers
+
+_Server software for [Minecraft: Bedrock Edition][minecraft-bedrock]._
+
+| Name                         | Description                                                                                         | Languages  | Status | Links                                                       |
+|------------------------------|-----------------------------------------------------------------------------------------------------|------------|--------|-------------------------------------------------------------|
+| [Nukkit][nukkit]             | Nuclear-Powered Minecraft: Bedrock Edition Server Software.                                         | Java       | ✅      | [download][nukkit-download] [wiki][nukkit-wiki]             |
+| [PowerNukkit][powernukkit]   | A Nukkit fork which supports new Minecraft Bedrock features.                                        | Java       | ✅      | [download][powernukkit-download] [usage][powernukkit-usage] |
+| [PocketMine-MP][pmmp]        | The highly customisable, open source server software for Minecraft: Bedrock Edition written in PHP. | PHP        | ✅      | [download][pmmp-download] [docs][pmmp-docs]                 |
+| [Dragonfly][dragonfly]       | The heavily asynchronous server software for Minecraft Bedrock Edition written in Go.               | Go         | ✅      | [usage][dragonfly-usage] [wiki][dragonfly-wiki]             |
+| [JSPrismarine][jsprismarine] | Dedicated Minecraft Bedrock Edition server written in TypeScript.                                   | TypeScript | 🚧     | [download][jsprismarine-download] [docs][jsprismarine-docs] |
+
+<!-- @formatter:off -->
+
+[nukkit]: https://cloudburstmc.org/
+[nukkit-download]: https://ci.opencollab.dev/job/NukkitX/job/Nukkit/job/master/
+[nukkit-wiki]: https://cloudburstmc.org/wiki/nukkit
+
+[powernukkit]: https://powernukkit.org/
+[powernukkit-download]: https://powernukkit.org/#download
+[powernukkit-usage]: https://github.com/PowerNukkit/PowerNukkit#readme 
+
+[pmmp]: https://pmmp.io/
+[pmmp-download]: https://github.com/pmmp/PocketMine-MP/releases
+[pmmp-docs]: https://doc.pmmp.io/en/rtfd/index.html
+
+[dragonfly]: https://github.com/df-mc/dragonfly
+[dragonfly-usage]: https://github.com/df-mc/dragonfly/wiki/Installation
+[dragonfly-wiki]: https://github.com/df-mc/dragonfly/wiki
+
+[jsprismarine]: https://avalanchepowered.org/
+[jsprismarine-download]: https://github.com/JSPrismarine/JSPrismarine/releases
+[jsprismarine-docs]: https://docs.avalanchepowered.org/
+
+<!-- @formatter:on -->
+
 ## Platforms
 
 _There are Minecraft modding platforms._
-
-### Servers
-
-#### Minecraft: Bedrock Edition
-
-_Server software for [Minecraft: Bedrock Edition][mcbe]._
-
-- [Nukkit](https://cloudburstmc.org/) — Nuclear-Powered Minecraft: Bedrock Edition Server Software.
-- [PowerNukkit](https://powernukkit.org/) — A Nukkit fork which supports new Minecraft Bedrock features.
-- [PocketMine-MP](https://pmmp.io/) — The highly customisable, open source server software for Minecraft: Bedrock
-  Edition written in PHP.
-- [Dragonfly](https://github.com/df-mc/dragonfly) — The heavily asynchronous server software for Minecraft Bedrock
-  Edition written in Go.
 
 ### Proxies
 
@@ -260,4 +284,4 @@ _Proxies allow linking together multiple [Minecraft servers](#servers), so they 
 
 [repo-license]: https://github.com/GrassMC/minecraft-collections/blob/main/LICENSE
 [minecraft]: https://minecraft.net/
-[mcbe]: https://minecraft.fandom.com/wiki/Bedrock_Edition
+[minecraft-bedrock]: https://minecraft.fandom.com/wiki/Bedrock_Edition
