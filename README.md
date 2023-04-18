@@ -10,6 +10,7 @@
 - [Third-party Servers](#third-party-servers)
 - [Hybrid Servers](#hybrid-servers)
 - [Bedrock Servers](#bedrock-servers)
+- [Proxies](#proxies)
 
 ## Wikis & Docs
 
@@ -203,24 +204,46 @@ _Server software for [Minecraft: Bedrock Edition][minecraft-bedrock]._
 
 <!-- @formatter:on -->
 
-## Platforms
+## Proxies
 
-_There are Minecraft modding platforms._
+_Proxies allow linking together multiple Minecraft servers, so they may appear as one._
 
-### Proxies
+| Name                     | Description                                                                                                                                   | Languages | Status | Links                                                   |
+|--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------|--------|---------------------------------------------------------|
+| [Velocity][velocity]     | The modern, next-generation Minecraft server proxy.                                                                                           | Java      | ✅      | [download][velocity-download] [docs][velocity-dcos]     |
+| [BungeeCord][bungeecord] | Efficiently proxies and maintains connections and transport between multiple Minecraft servers.                                               | Java      | ✅      | [download][bungeecord-download] [wiki][bungeecord-wiki] |
+| [Waterfall][waterfall]   | BungeeCord fork that aims to improve performance and stability.                                                                               | Java      | ✅      | [download][waterfall-download] [docs][waterfall-docs]   |
+| [Gate][gate]             | An extensible lightweight high-performance Minecraft reverse proxy with flexibility & excellent server version support - ready for the cloud! | Go        | ✅      | [download][gate-download] [guide][gate-guide]           |
+| [VIAaaS][viaaas]         | A Minecraft proxy that allows you to connect to servers that use different versions of the game.                                              | Java      | ✅      | [download][viaaas-download] [usage][viaaas-usage]       |
+| [Geyser][geyser][^1]     | A proxy that allows Minecraft: Bedrock Edition clients to connect to Minecraft: Java Edition servers.                                         | Java      | ✅      | [download][geyser-download] [wiki][geyser-wiki]         |
 
-_Proxies allow linking together multiple [Minecraft servers](#servers), so they may appear as one._
+<!-- @formatter:off -->
 
-- [Velocity](https://velocitypowered.com/) — The modern, next-generation Minecraft server proxy.
-- [BungeeCord](https://www.spigotmc.org/wiki/bungeecord/) — Efficiently proxies and maintains connections and transport
-  between multiple Minecraft servers.
-- [Waterfall](https://github.com/PaperMC/Waterfall) — BungeeCord fork that aims to improve performance and stability.
-- [Gate](https://gate.minekube.com/) — An extensible lightweight high-performance Minecraft reverse proxy with
-  flexibility & excellent server version support - ready for the cloud!
-- [Infrared](https://github.com/haveachin/infrared) — An ultra lightweight minecraft reverse proxy and idle placeholder.
-- [VIAaaS](https://github.com/ViaVersion/VIAaaS) — ViaVersion as a Service - standalone ViaVersion proxy.
-- [Geyser](https://geysermc.org/)[^3] — A bridge/proxy allowing you to connect to Minecraft: Java Edition servers with
-  Minecraft: Bedrock Edition.
+[velocity]: https://papermc.io/software/velocity
+[velocity-download]: https://papermc.io/downloads/velocity
+[velocity-docs]: https://docs.papermc.io/velocity
+
+[bungeecord]: https://www.spigotmc.org/
+[bungeecord-download]: https://ci.md-5.net/job/BungeeCord/
+[bungeecord-wiki]: https://www.spigotmc.org/wiki/bungeecord/
+
+[waterfall]: https://papermc.io/software/waterfall
+[waterfall-download]: https://papermc.io/downloads/waterfall
+[waterfall-docs]: https://docs.papermc.io/waterfall
+
+[gate]: https://gate.minekube.com/
+[gate-download]: https://github.com/minekube/gate/releases
+[gate-guide]: https://gate.minekube.com/guide/
+
+[viaaas]: https://github.com/ViaVersion/VIAaaS
+[viaaas-download]: https://github.com/ViaVersion/VIAaaS/releases
+[viaaas-usage]: https://github.com/ViaVersion/VIAaaS#setting-up-server-instance
+
+[geyser]: https://geysermc.org/
+[geyser-download]: https://geysermc.org/download
+[geyser-wiki]: https://wiki.geysermc.org/
+
+<!-- @formatter:on -->
 
 ## Mods
 
@@ -269,9 +292,7 @@ _Proxies allow linking together multiple [Minecraft servers](#servers), so they 
 
 <!-- SECTION: FOOTNOTES -->
 
-[^wip]: Project is currently in development.
-[^2]: As Minestom is a Java library, it must be loaded the same way any other Java library may be loaded.
-[^3]: Hybrid proxy that enables clients from Minecraft Bedrock Edition to join your Minecraft Java server.
+[^1]: Hybrid proxy that enables clients from Minecraft Bedrock Edition to join your Minecraft Java server.
 
 <!-- @formatter:off -->
 <!-- SECTION: DECLARATIONS -->
