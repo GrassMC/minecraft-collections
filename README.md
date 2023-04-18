@@ -6,6 +6,7 @@
 
 - [Wikis & Docs](#wikis--docs)
 - [Mod Loaders](#mod-loaders)
+- [Server Wrappers](#server-wrappers)
 
 ## Wikis & Docs
 
@@ -45,6 +46,37 @@ minor adjustments to the game's mechanics or implement entirely new features._
 
 <!-- @formatter:on -->
 
+## Server Wrappers
+
+_Servers that implement (based on) vanilla [Minecraft][minecraft] server._
+
+| Name                             | Description                                                                                                    | Status | Links                                                           |
+|----------------------------------|----------------------------------------------------------------------------------------------------------------|--------|-----------------------------------------------------------------|
+| [Spigot][spigot]                 | High performance Minecraft server implementation.                                                              | ✅      | [usage][spigot-usage] [wiki][spigot-wiki]                       |
+| [Paper][paper]                   | High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies.                          | ✅      | [download][paper-download] [docs][paper-docs]                   |
+| [Purpur][purpur]                 | A drop-in replacement for Paper servers designed for configurability and new, fun, exciting gameplay features. | ✅      | [download][purpur-download] [docs][purpur-docs]                 |
+| [Sponge Vanilla][sponge-vanilla] | The implementation of the Sponge API on top of Vanilla Minecraft.                                              | ⚠️     | [download][sponge-vanilla-download] [docs][sponge-vanilla-docs] |
+
+<!-- @formatter:off -->
+
+[spigot]: https://www.spigotmc.org/
+[spigot-usage]: https://www.spigotmc.org/wiki/buildtools/
+[spigot-wiki]: https://www.spigotmc.org/wiki/spigot/
+
+[paper]: https://papermc.io/software/paper
+[paper-download]: https://papermc.io/downloads/paper
+[paper-docs]: https://docs.papermc.io/paper
+
+[purpur]: https://purpurmc.org/
+[purpur-download]: https://purpurmc.org/downloads
+[purpur-docs]: https://purpurmc.org/docs/
+
+[sponge-vanilla]: https://spongepowered.org/
+[sponge-vanilla-download]: https://spongepowered.org/downloads/spongevanilla
+[sponge-vanilla-docs]: https://docs.spongepowered.org/
+
+<!-- @formatter:on -->
+
 ## Platforms
 
 _There are Minecraft modding platforms._
@@ -52,16 +84,6 @@ _There are Minecraft modding platforms._
 ### Servers
 
 _[Minecraft][minecraft]'s servers allow players to play online or via a local area network with other people._
-
-#### Wrappers
-
-_Servers that implement (based on) vanilla [Minecraft][minecraft] server._
-
-- [Spigot](https://www.spigotmc.org/) — High performance Minecraft server implementation.
-- [Paper](https://papermc.io/) — High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies.
-- [Purpur](https://purpurmc.org/) — A drop-in replacement for Paper servers designed for configurability and new, fun,
-  exciting gameplay features.
-- [Sponge Vanilla](https://spongepowered.org/) — The implementation of the Sponge API on top of Vanilla Minecraft.
 
 #### Third-party
 
