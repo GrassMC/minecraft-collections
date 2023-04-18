@@ -61,6 +61,7 @@ _Servers that implement (based on) vanilla [Minecraft][minecraft] server._
 | [Purpur][purpur]                 | A drop-in replacement for Paper servers designed for configurability and new, fun, exciting gameplay features. | ✅      | [download][purpur-download] [docs][purpur-docs]                 |
 | [Pufferfish][pufferfish]         | A high-performance fork of Paper designed for large servers.                                                   | ✅      | [download][pufferfish-download] [docs][pufferfish-docs]         |
 | [Sponge Vanilla][sponge-vanilla] | The implementation of the Sponge API on top of Vanilla Minecraft.                                              | ⚠️     | [download][sponge-vanilla-download] [docs][sponge-vanilla-docs] |
+| [Folia][folia]                   | Fork of Paper which adds regionised multithreading to the dedicated server.                                    | ⚠️     | [docs][folia-docs]                                              |
 
 <!-- @formatter:off -->
 
@@ -83,6 +84,9 @@ _Servers that implement (based on) vanilla [Minecraft][minecraft] server._
 [sponge-vanilla]: https://spongepowered.org/
 [sponge-vanilla-download]: https://spongepowered.org/downloads/spongevanilla
 [sponge-vanilla-docs]: https://docs.spongepowered.org/
+
+[folia]: https://papermc.io/software/folia
+[folia-docs]: https://docs.papermc.io/folia
 
 <!-- @formatter:on -->
 
@@ -210,7 +214,7 @@ _Proxies allow linking together multiple Minecraft servers, so they may appear a
 
 | Name                     | Description                                                                                                                                   | Languages | Status | Links                                                   |
 |--------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|-----------|--------|---------------------------------------------------------|
-| [Velocity][velocity]     | The modern, next-generation Minecraft server proxy.                                                                                           | Java      | ✅      | [download][velocity-download] [docs][velocity-dcos]     |
+| [Velocity][velocity]     | The modern, next-generation Minecraft server proxy.                                                                                           | Java      | ✅      | [download][velocity-download] [docs][velocity-docs]     |
 | [BungeeCord][bungeecord] | Efficiently proxies and maintains connections and transport between multiple Minecraft servers.                                               | Java      | ✅      | [download][bungeecord-download] [wiki][bungeecord-wiki] |
 | [Waterfall][waterfall]   | BungeeCord fork that aims to improve performance and stability.                                                                               | Java      | ✅      | [download][waterfall-download] [docs][waterfall-docs]   |
 | [Gate][gate]             | An extensible lightweight high-performance Minecraft reverse proxy with flexibility & excellent server version support - ready for the cloud! | Go        | ✅      | [download][gate-download] [guide][gate-guide]           |
