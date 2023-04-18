@@ -136,9 +136,9 @@ _[Minecraft][minecraft]'s servers that have written from scratch._
 
 <!-- @formatter:on -->
 
-_Hybrid servers allow loading both mods and plugins in the same server._
-
 ## Hybrid Servers
+
+_Hybrid servers allow loading both mods and plugins in the same server._
 
 | Name                         | Description                                                                                                              | Status | Links                                                       |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|--------|-------------------------------------------------------------|
