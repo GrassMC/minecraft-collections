@@ -8,6 +8,7 @@
 - [Mod Loaders](#mod-loaders)
 - [Server Wrappers](#server-wrappers)
 - [Third-party Servers](#third-party-servers)
+- [Hybrid Servers](#hybrid-servers)
 
 ## Wikis & Docs
 
@@ -129,23 +130,47 @@ _[Minecraft][minecraft]'s servers that have written from scratch._
 
 <!-- @formatter:on -->
 
+_Hybrid servers allow loading both mods and plugins in the same server._
+
+## Hybrid Servers
+
+| Name                         | Description                                                                                                              | Status | Links                                                       |
+|------------------------------|--------------------------------------------------------------------------------------------------------------------------|--------|-------------------------------------------------------------|
+| [Sponge Forge][sponge-forge] | The implementation of the Sponge API on the Minecraft Forge platform.                                                    | ✅      | [download][sponge-forge-download] [docs][sponge-forge-docs] | 
+| [Magma][magma]               | the most powerful Forge server providing you with mods and Plugins using Spigot and Paper for Performance and Stability. | ✅      | [download][magma-download] [wiki][magma-wiki]               |
+| [Mohist][mohist]             | Minecraft Forge Hybrid server implementing the Spigot/Bukkit API, formerly known as Thermos/Cauldron/MCPC+.              | ✅      | [download][mohist-download] [wiki][mohist-wiki]             |
+| [CatServer][catserver]       | A high-performance Bukkit and Forge hybrid minecraft server.                                                             | ✅      | [download][catserver-download] [docs][catserver-docs]       |
+| [Arclight][arclight]         | A Bukkit(1.16/1.18/1.19) server implementation on Forge using Mixin.                                                     | ✅      | [download][arclight-download] [wiki][arclight-wiki]         |
+
+<!-- @formatter:off -->
+
+[sponge-forge]: https://spongepowered.org/
+[sponge-forge-download]: https://spongepowered.org/downloads/spongeforge
+[sponge-forge-docs]: https://docs.spongepowered.org/
+
+[magma]: https://magmafoundation.org/
+[magma-download]: https://magmafoundation.org/#downloads
+[magma-wiki]: https://git.magmafoundation.org/magmafoundation/Magma/-/wikis/home
+
+[mohist]: https://www.mohistmc.com/
+[mohist-download]: https://www.mohistmc.com/download
+[mohist-wiki]: https://wiki.mohistmc.com/
+
+[catserver]: https://catmc.org/
+[catserver-download]: https://github.com/Luohuayu/CatServer/releases
+[catserver-docs]: https://github.com/Luohuayu/CatServer/blob/1.16.5/docs/README_EN.md
+
+[arclight]: https://github.com/IzzelAliz/Arclight
+[arclight-download]: https://github.com/IzzelAliz/Arclight/releases
+[arclight-wiki]: https://github.com/IzzelAliz/Arclight/wiki
+
+<!-- @formatter:on -->
+
 ## Platforms
 
 _There are Minecraft modding platforms._
 
 ### Servers
-
-#### Hybrids
-
-_Hybrid servers allow loads both mods and plugins in the same server._
-
-- [Sponge Forge](https://spongepowered.org/) — The implementation of the Sponge API on the Minecraft Forge platform.
-- [Mohist](https://www.mohistmc.com/) — Minecraft Forge Hybrid server implementing the Spigot/Bukkit API, formerly known
-  as Thermos/Cauldron/MCPC+.
-- [CatServer](https://catmc.org/) — A high-performance Bukkit and Forge hybrid minecraft server.
-- [Arclight](https://github.com/IzzelAliz/Arclight) — A Bukkit(1.16/1.18/1.19) server implementation on Forge using
-  Mixin.
-- https://magmafoundation.org/
 
 #### Minecraft: Bedrock Edition
 
