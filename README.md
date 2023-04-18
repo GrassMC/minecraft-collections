@@ -56,6 +56,7 @@ _Servers that implement (based on) vanilla [Minecraft][minecraft] server._
 | [Spigot][spigot]                 | High performance Minecraft server implementation.                                                              | ✅      | [usage][spigot-usage] [wiki][spigot-wiki]                       |
 | [Paper][paper]                   | High performance Spigot fork that aims to fix gameplay and mechanics inconsistencies.                          | ✅      | [download][paper-download] [docs][paper-docs]                   |
 | [Purpur][purpur]                 | A drop-in replacement for Paper servers designed for configurability and new, fun, exciting gameplay features. | ✅      | [download][purpur-download] [docs][purpur-docs]                 |
+| [Pufferfish][pufferfish]         | A high-performance fork of Paper designed for large servers.                                                   | ✅      | [download][pufferfish-download] [docs][pufferfish-docs]         |
 | [Sponge Vanilla][sponge-vanilla] | The implementation of the Sponge API on top of Vanilla Minecraft.                                              | ⚠️     | [download][sponge-vanilla-download] [docs][sponge-vanilla-docs] |
 
 <!-- @formatter:off -->
@@ -71,6 +72,10 @@ _Servers that implement (based on) vanilla [Minecraft][minecraft] server._
 [purpur]: https://purpurmc.org/
 [purpur-download]: https://purpurmc.org/downloads
 [purpur-docs]: https://purpurmc.org/docs/
+
+[pufferfish]: https://pufferfish.host/
+[pufferfish-download]: https://pufferfish.host/downloads
+[pufferfish-docs]: https://docs.pufferfish.host/
 
 [sponge-vanilla]: https://spongepowered.org/
 [sponge-vanilla-download]: https://spongepowered.org/downloads/spongevanilla
