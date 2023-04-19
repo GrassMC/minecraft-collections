@@ -5,6 +5,7 @@
 ## Contents
 
 - [Wikis & Docs](#wikis--docs)
+- [Shader Loaders](#shader-loaders)
 - [Mod Loaders](#mod-loaders)
 - [Server Wrappers](#server-wrappers)
 - [Third-party Servers](#third-party-servers)
@@ -23,6 +24,32 @@
 | [bedrock.dev](https://bedrock.dev/)                                                                      | A technical Minecraft: Bedrock Edition documentation.                                                                                                           |
 | [Bedrock Wiki](https://wiki.bedrock.dev/)                                                                | A knowledge-sharing website for Technical Bedrock, containing documentation, tutorials, and general how-to information.                                         |
 | [Minecraft CreepyPasta Wiki](https://minecraftcreepypasta.fandom.com/wiki/Minecraft_Creepypasta_Wiki)    | A wiki for Minecraft Creepypastas.                                                                                                                              |
+
+## Shader Loaders
+
+| Name                 | Description                                                                                      | Platforms | Status | Links                                                                           |
+|----------------------|--------------------------------------------------------------------------------------------------|-----------|--------|---------------------------------------------------------------------------------|
+| [OptiFine][optifine] | A Minecraft optimization mod.                                                                    | Forge     | ✅      | [download][optifine-download] [docs][optifine-docs]                             |
+| [Iris][iris]         | A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs | Fabric    | 🚧     | [installer][iris-installer] [modrinth][iris-modrinth] [docs][iris-docs]         |
+| [Canvas][canvas]     | Shader-Based Minecraft Renderer for Fabric.                                                      | Fabric    | 🚧     | [modrinth][canvas-modrinth] [curseforge][canvas-curseforge] [wiki][canvas-wiki] |
+
+<!-- @formatter:off -->
+
+[optifine]: https://optifine.net/
+[optifine-download]: https://optifine.net/downloads
+[optifine-docs]: https://github.com/sp614x/optifine/tree/master/OptiFineDoc/doc
+
+[iris]: https://irisshaders.net/
+[iris-installer]: https://irisshaders.net/download
+[iris-modrinth]: https://modrinth.com/mod/iris
+[iris-docs]: https://github.com/IrisShaders/Iris/tree/1.19.4/docs
+
+[canvas]: https://github.com/vram-guild/canvas
+[canvas-modrinth]: https://modrinth.com/mod/canvas
+[canvas-curseforge]: https://www.curseforge.com/minecraft/mc-mods/canvas-renderer
+[canvas-wiki]: https://github.com/vram-guild/canvas/wiki
+
+<!-- @formatter:on -->
 
 ## Mod Loaders
 
