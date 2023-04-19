@@ -27,11 +27,11 @@
 
 ## Shader Loaders
 
-| Name                 | Description                                                                                      | Platforms | Status | Links                                                                           |
-|----------------------|--------------------------------------------------------------------------------------------------|-----------|--------|---------------------------------------------------------------------------------|
-| [OptiFine][optifine] | A Minecraft optimization mod.                                                                    | Forge     | ✅      | [download][optifine-download] [docs][optifine-docs]                             |
-| [Iris][iris]         | A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs | Fabric    | 🚧     | [installer][iris-installer] [modrinth][iris-modrinth] [docs][iris-docs]         |
-| [Canvas][canvas]     | Shader-Based Minecraft Renderer for Fabric.                                                      | Fabric    | 🚧     | [modrinth][canvas-modrinth] [curseforge][canvas-curseforge] [wiki][canvas-wiki] |
+| Name                 | Description                                                                                       | Platforms | Status | Links                                                                           |
+|----------------------|---------------------------------------------------------------------------------------------------|-----------|--------|---------------------------------------------------------------------------------|
+| [OptiFine][optifine] | A Minecraft optimization mod.                                                                     | Forge     | ✅      | [download][optifine-download] [docs][optifine-docs]                             |
+| [Iris][iris]         | A modern shaders mod for Minecraft intended to be compatible with existing OptiFine shader packs. | Fabric    | 🚧     | [installer][iris-installer] [modrinth][iris-modrinth] [docs][iris-docs]         |
+| [Canvas][canvas]     | Shader-Based Minecraft Renderer for Fabric.                                                       | Fabric    | 🚧     | [modrinth][canvas-modrinth] [curseforge][canvas-curseforge] [wiki][canvas-wiki] |
 
 <!-- @formatter:off -->
 
@@ -125,8 +125,8 @@ _[Minecraft][minecraft]'s servers that have written from scratch._
 |------------------------|-------------------------------------------------------------------------------------|-----------|--------|---------------------------------------------------------|
 | [Glowstone][glowstone] | A fast, customizable and compatible open source server for Minecraft: Java Edition. | Java      | ✅      | [download][glowstone-download] [docs][glowstone-docs]   |
 | [Cuberite][cuberite]   | A lightweight, fast and extensible game server for Minecraft.                       | C++       | ✅      | [download][cuberite-download] [manual][cuberite-manual] |
-| [Limbo][limbo]         | Standalone Limbo Minecraft Server                                                   | Java      | ✅      | [download][limbo-download]                              |
-| [NanoLimbo][nanolimbo] | The lightweight, high performance Minecraft limbo server                            | Java      | ✅      | [download][nanolimbo-download]                          |
+| [Limbo][limbo]         | Standalone Limbo Minecraft Server.                                                  | Java      | ✅      | [download][limbo-download]                              |
+| [NanoLimbo][nanolimbo] | The lightweight, high performance Minecraft limbo server.                           | Java      | ✅      | [download][nanolimbo-download]                          |
 | [Krypton][krypton]     | A fast, lightweight Minecraft server written in Kotlin.                             | Kotlin    | 🚧     | [download][krypton-download] [wiki][krypton-wiki]       |
 | [MCHPRS][mchprs]       | A multithreaded Minecraft server built for redstone.                                | Rust      | 🚧     | [usage][mchprs-usage]                                   |
 | [Obsidian][obsidian]   | A C# implementation of the Minecraft server protocol.                               | C#        | 🚧     | [usage][obsidian-usage]                                 |
