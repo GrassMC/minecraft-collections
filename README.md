@@ -171,7 +171,7 @@ _Hybrid servers allow loading both mods and plugins in the same server._
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|--------|-------------------------------------------------------------|
 | [Sponge Forge][sponge-forge] | The implementation of the Sponge API on the Minecraft Forge platform.                                                    | ✅      | [download][sponge-forge-download] [docs][sponge-forge-docs] | 
 | [Magma][magma]               | the most powerful Forge server providing you with mods and Plugins using Spigot and Paper for Performance and Stability. | ✅      | [download][magma-download] [wiki][magma-wiki]               |
-| [Mohist][mohist]             | Minecraft Forge Hybrid server implementing the Spigot/Bukkit API, formerly known as Thermos/Cauldron/MCPC+.              | ✅      | [download][mohist-download] [wiki][mohist-wiki]             |
+| [Mohist][mohist]             | Minecraft Forge Hybrid server implementing the Spigot/Bukkit API, formerly known as Thermos/Cauldron/MCPC[^1]+.          | ✅      | [download][mohist-download] [wiki][mohist-wiki]             |
 | [CatServer][catserver]       | A high-performance Bukkit and Forge hybrid minecraft server.                                                             | ✅      | [download][catserver-download] [docs][catserver-docs]       |
 | [Arclight][arclight]         | A Bukkit(1.16/1.18/1.19) server implementation on Forge using Mixin.                                                     | ✅      | [download][arclight-download] [wiki][arclight-wiki]         |
 
@@ -207,6 +207,7 @@ _Server software for [Minecraft: Bedrock Edition][minecraft-bedrock]._
 |------------------------------|-----------------------------------------------------------------------------------------------------|------------|--------|-------------------------------------------------------------|
 | [Nukkit][nukkit]             | Nuclear-Powered Minecraft: Bedrock Edition Server Software.                                         | Java       | ✅      | [download][nukkit-download] [wiki][nukkit-wiki]             |
 | [PowerNukkit][powernukkit]   | A Nukkit fork which supports new Minecraft Bedrock features.                                        | Java       | ✅      | [download][powernukkit-download] [usage][powernukkit-usage] |
+| [PowerNukkitX][powernukkitx] | High-performance, feature-rich, fully open source MCBE[^2] server software.                         | Java       | ✅      | [download][powernukkitx-download] [docs][powernukkitx-docs] |
 | [PocketMine-MP][pmmp]        | The highly customisable, open source server software for Minecraft: Bedrock Edition written in PHP. | PHP        | ✅      | [download][pmmp-download] [docs][pmmp-docs]                 |
 | [Dragonfly][dragonfly]       | The heavily asynchronous server software for Minecraft Bedrock Edition written in Go.               | Go         | ✅      | [usage][dragonfly-usage] [wiki][dragonfly-wiki]             |
 | [JSPrismarine][jsprismarine] | Dedicated Minecraft Bedrock Edition server written in TypeScript.                                   | TypeScript | 🚧     | [download][jsprismarine-download] [docs][jsprismarine-docs] |
@@ -220,6 +221,10 @@ _Server software for [Minecraft: Bedrock Edition][minecraft-bedrock]._
 [powernukkit]: https://powernukkit.org/
 [powernukkit-download]: https://powernukkit.org/#download
 [powernukkit-usage]: https://github.com/PowerNukkit/PowerNukkit#readme 
+
+[powernukkitx]: https://powernukkitx.cn/
+[powernukkitx-download]: https://github.com/PowerNukkitX/PowerNukkitX/releases
+[powernukkitx-docs]: https://www.powernukkitx.com/doc/en-us/PowerNukkitX.html
 
 [pmmp]: https://pmmp.io/
 [pmmp-download]: https://github.com/pmmp/PocketMine-MP/releases
@@ -246,7 +251,7 @@ _Proxies allow linking together multiple Minecraft servers, so they may appear a
 | [Waterfall][waterfall]   | BungeeCord fork that aims to improve performance and stability.                                                                               | Java      | ✅      | [download][waterfall-download] [docs][waterfall-docs]   |
 | [Gate][gate]             | An extensible lightweight high-performance Minecraft reverse proxy with flexibility & excellent server version support - ready for the cloud! | Go        | ✅      | [download][gate-download] [guide][gate-guide]           |
 | [VIAaaS][viaaas]         | A Minecraft proxy that allows you to connect to servers that use different versions of the game.                                              | Java      | ✅      | [download][viaaas-download] [usage][viaaas-usage]       |
-| [Geyser][geyser][^1]     | A proxy that allows Minecraft: Bedrock Edition clients to connect to Minecraft: Java Edition servers.                                         | Java      | ✅      | [download][geyser-download] [wiki][geyser-wiki]         |
+| [Geyser][geyser][^3]     | A proxy that allows Minecraft: Bedrock Edition clients to connect to Minecraft: Java Edition servers.                                         | Java      | ✅      | [download][geyser-download] [wiki][geyser-wiki]         |
 
 <!-- @formatter:off -->
 
@@ -323,7 +328,9 @@ _Proxies allow linking together multiple Minecraft servers, so they may appear a
 
 <!-- SECTION: FOOTNOTES -->
 
-[^1]: Hybrid proxy that enables clients from Minecraft Bedrock Edition to join your Minecraft Java server.
+[^1]: Minecraft: Java Edition
+[^2]: Minecraft: Bedrock Edition
+[^3]: Hybrid proxy that enables clients from Minecraft Bedrock Edition to join your Minecraft Java server.
 
 <!-- @formatter:off -->
 <!-- SECTION: DECLARATIONS -->
